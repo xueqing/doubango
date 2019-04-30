@@ -52,3 +52,4 @@ stamp-h1
 *.la
 
 .vscode
+build

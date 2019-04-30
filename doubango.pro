@@ -15,4 +15,4 @@ SUBDIRS += \
     tinyRTP \
     tinyDAV \
     tinySIP \
-    bindings
+#    bindings

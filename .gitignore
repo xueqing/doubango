@@ -50,3 +50,5 @@ stamp-h1
 *.lo
 *.o
 *.la
+
+.vscode

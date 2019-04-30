@@ -3,8 +3,6 @@ QT -= core gui
 TARGET = tinySDP
 TEMPLATE = lib
 
-CONFIG += c++11
-
 QMAKE_CFLAGS += \
     -DHAVE_CONFIG_H \
     -DHAVE_OPENSSL=1

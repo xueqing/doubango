@@ -26,6 +26,11 @@ unix {
     INSTALLS += target
 }
 
+CI-TEST{
+    target.path = $$(INSTALL_PATH)/ci-test/doubangolib
+    INSTALLS = target
+}
+
 INCLUDEPATH += \
     $$PWD/../ \
     $$PWD/include \

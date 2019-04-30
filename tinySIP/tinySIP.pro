@@ -4,10 +4,12 @@ TARGET = tinySIP
 TEMPLATE = lib
 
 QMAKE_CFLAGS += \
+    -O3 \
     -DHAVE_CONFIG_H \
     -DHAVE_OPENSSL=1
 
 QMAKE_CXXFLAGS += \
+    -O3 \
     -DHAVE_CONFIG_H \
     -DHAVE_OPENSSL=1
 

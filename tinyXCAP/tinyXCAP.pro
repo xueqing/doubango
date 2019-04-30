@@ -5,6 +5,14 @@ TEMPLATE = lib
 
 CONFIG += c++11
 
+QMAKE_CFLAGS += \
+    -DHAVE_CONFIG_H \
+    -DHAVE_OPENSSL=1
+
+QMAKE_CXXFLAGS += \
+    -DHAVE_CONFIG_H \
+    -DHAVE_OPENSSL=1
+
 unix {
     CONFIG(debug, debug|release) {
         DESTDIR = $$PWD/../build/debug
@@ -19,6 +27,7 @@ unix {
 }
 
 INCLUDEPATH += \
+    $$PWD/../ \
     $$PWD/include/ \
     $$PWD/../tinySAK/src \
     $$PWD/../tinyNET/src \

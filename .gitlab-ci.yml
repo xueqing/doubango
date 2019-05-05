@@ -1,0 +1,25 @@
+stages:
+  - build
+
+variables:
+  GIT_SUBMODULES_STRATEGY: none
+  serviceName: doubango
+  INSTALL_PATH: tmpbuild--$CI_COMMIT_SHA
+
+image: xxxx/qt:5.7-desktop
+
+.job:
+  tags:
+    - vdms1
+
+build-job:
+  extends: .job
+  stage: build
+  variables:
+    GIT_SUBMODULES_STRATEGY: recursive
+  script:
+    - test -d $INSTALL_PATH || mkdir -p $INSTALL_PATH
+    - rm -rf $INSTALL_PATH/*
+    - cp ci/* $INSTALL_PATH/
+    - cd $INSTALL_PATH
+    - ./build.sh

@@ -34,7 +34,8 @@ INCLUDEPATH += \
     $$PWD/include \
     $$PWD/../tinySAK/src \
     $$PWD/../tinyNET/src \
-    $$PWD/../tinyMEDIA/include
+    $$PWD/../tinyMEDIA/include \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
 #    include/tinyrtp.h \

@@ -40,7 +40,8 @@ INCLUDEPATH += \
     $$PWD/../tinyIPSec/src \
     $$PWD/../tinySIGCOMP/src \
     $$PWD/../tinySDP/include \
-    $$PWD/../tinyMEDIA/include
+    $$PWD/../tinyMEDIA/include \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
 #    include/tinysip.h \

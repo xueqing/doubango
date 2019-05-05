@@ -34,7 +34,8 @@ INCLUDEPATH += \
     $$PWD/include \
     $$PWD/../tinySAK/src \
     $$PWD/../tinyNET/src \
-    $$PWD/../tinySDP/include
+    $$PWD/../tinySDP/include \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
     include/tmedia.h \

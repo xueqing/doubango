@@ -39,7 +39,8 @@ INCLUDEPATH += \
     $$PWD/../tinyBFCP/include \
     $$PWD/../tinyRTP/include \
     $$PWD/../tinyMEDIA/include \
-    $$PWD/../tinyMSRP/include
+    $$PWD/../tinyMSRP/include \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
 #    include/tinydav.h \

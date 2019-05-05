@@ -33,7 +33,8 @@ INCLUDEPATH += \
     $$PWD/../ \
     $$PWD/include/ \
     $$PWD/../tinySAK/src \
-    $$PWD/../tinyNET/src
+    $$PWD/../tinyNET/src \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
     include/thttp.h \

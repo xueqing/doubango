@@ -32,7 +32,8 @@ CI-TEST{
 INCLUDEPATH += \
     $$PWD/../ \
     $$PWD/src/ \
-    $$PWD/../tinySAK/src
+    $$PWD/../tinySAK/src \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
     src/tinynet_config.h \

@@ -35,7 +35,8 @@ INCLUDEPATH += \
     $$PWD/../tinySAK/src \
     $$PWD/../tinyNET/src \
     $$PWD/../tinyHTTP/include \
-    $$PWD/../tinySDP/include
+    $$PWD/../tinySDP/include \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
     include/tmsrp.h \

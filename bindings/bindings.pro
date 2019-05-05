@@ -41,7 +41,8 @@ INCLUDEPATH += \
     $$PWD/../tinyMEDIA/include \
     $$PWD/../tinyMSRP/include \
     $$PWD/../tinyDAV/include \
-    $$PWD/../tinySIP/include
+    $$PWD/../tinySIP/include \
+    $$PWD/../thirdparties/common/include
 
 HEADERS += \
     _common/ActionConfig.h \
